@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class A1113321_0224_2{
+	public static void main(String[] argv){
+		float num, q;
+		
+		System.out.print("請輸入一個攝氏溫度值:");
+		Scanner sc = new Scanner(System.in);
+		num = sc.nextFloat();
+
+		q = num*9/5+32;
+		
+
+		System.out.println("華氏溫度"+q+"度");
+	}
+}
